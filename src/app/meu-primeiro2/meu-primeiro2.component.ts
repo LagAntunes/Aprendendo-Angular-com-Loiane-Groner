@@ -12,6 +12,8 @@ export class MeuPrimeiro2Component implements OnInit {
 
   cursos: any;
 
+  maninho:any
+
   constructor(private cursosService: CursosService) {
     
     /*for (let i = 0; i <= this.cursos.length; i++) {
@@ -24,6 +26,8 @@ export class MeuPrimeiro2Component implements OnInit {
 
 
     this.NomePortal = 'http://mano.com.br'
+
+    this.maninho = "yooooo"
 
    }
 
